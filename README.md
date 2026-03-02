@@ -39,10 +39,23 @@ To migrate data from the raw CSV file without creating duplicates (e.g., a custo
     * Run the script `docs/schema.sql` in your PostgreSQL instance to create the schema.
     * Start your MongoDB instance.
 4.  **Configure Environment Variables:**
+    ```
+    sudo -u  postgres psql
+    ```
+    Ingresa contraseña de tu equipo
+    Luego
+    ```
+    ALTER USER postgres WITH PASSWORD 'Asd123'
+    ```
+    Creas la base de datos
+    ```
+    create database  db_megastore_exam
+    ```
+    
     Create a `.env` file in the root directory:
     ```env
     PORT=3000
-    PG_URI=postgres://postgres:Asd.123@localhost:5432/db_megastore_exam
+    PG_URI=postgres://postgres:Asd123@localhost:5432/db_megastore_exam
     MONGO_URI=mongodb://localhost:27017/db_megastore_exam
     ```
 5.  **Run Migration:**
