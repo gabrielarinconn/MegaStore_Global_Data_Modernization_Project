@@ -28,7 +28,7 @@ To migrate data from the raw CSV file without creating duplicates (e.g., a custo
 ### Steps
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/gabrielarinconn/MegaStore_Global_Data_Modernization_Project.git
     cd megastore-backend
     ```
 2.  **Install dependencies:**
