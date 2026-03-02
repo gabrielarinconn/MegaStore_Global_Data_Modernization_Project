@@ -1,0 +1,30 @@
+{
+  "name": "megastore_global_data_modernization_project",
+  "version": "1.0.0",
+  "description": "## 1. Introduction This project aims to migrate the legacy system of \"MegaStore Global\" from a single, unmanageable Excel file into a modern, scalable, and persistent architecture. The solution involves an **hybrid database approach** (SQL + NoSQL) and a RESTful API built with Node.js and Express.",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielarinconn/MegaStore_Global_Data_Modernization_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielarinconn/MegaStore_Global_Data_Modernization_Project/issues"
+  },
+  "homepage": "https://github.com/gabrielarinconn/MegaStore_Global_Data_Modernization_Project#readme",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.3",
+    "pg": "^8.19.0"
+  }
+}
